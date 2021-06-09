@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-cookie{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+  .container-cookie {
+    display: grid;
+    }
+
+    .cookie h1{
+        text-align: center;
+    }
+
+    .cookie p{
+        font-size: 1.2rem;
+    }

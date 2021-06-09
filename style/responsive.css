@@ -1,0 +1,424 @@
+@media (max-width: 1440px){
+    .slide-container{
+        max-width: 1400px;
+    }
+    .slide-container .slide img{
+        height: 700px;
+    }
+    .coloana-stanga ul li{
+        margin: 0 90px;
+    }
+    .product-description{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1024px){
+    .slide-container {
+        max-width: 1024px;
+    }
+    .center h2,
+    .top-right h2,
+    .top-left h2{
+        font-size: 1rem;
+    }
+    .center p,
+    .top-right p,
+    .top-left p{
+        font-size: 0.8rem;
+    }
+    .footer-row{
+        grid-column-gap: 0px;
+    }
+    .coloana-stanga ul li{
+        margin: 0 0;
+    }
+    .product-description {
+        font-size: 1.3rem;
+        height: 230px;
+    }
+    .imagine img {
+        width: 100%;
+        height: 420px;
+    }
+    .aplications .titlu{
+        font-size: 1rem;
+    }
+    .aplications h3{
+        font-size: 1.5rem;
+    }
+    .aplications .h1centered{
+        font-size: 1.7rem;
+    }
+    .aplications-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 40px;
+        grid-row-gap: 0px;
+    }
+    .list-1 p, 
+    .list-2 p, 
+    .list-3 p, 
+    .list-4 p, 
+    .list-5 p, 
+    .list-6 p {
+        margin: 0 40px;
+        font-size: 1.1rem;
+    }
+    .aplications .info-mic{
+        margin: 0 60px;
+    }
+    .intrebari {
+        margin: 0 30px;
+    }
+    .contact-date .contact .adresa .locatie p, 
+    .contact-date .contact .numar .numar-telefon p, 
+    .contact-date .contact .email .adresa-email p {
+        font-size: 1.1rem;
+    }
+    .contact-date .contact .adresa .image-map,
+    .contact-date .contact .numar .image-numar,
+    .contact-date .contact .email .image-email{
+        font-size: 3.3rem;
+        height: 100px;
+    }
+}
+
+@media (max-width: 768px){
+    .slide-container {
+        max-width: 768px;
+    }
+    .slide-container .slide img{
+        height: 500px;
+    }
+    .center h2,
+    .top-right h2,
+    .top-left h2{
+        font-size: 0.9rem;
+    }
+    .center p,
+    .top-right p,
+    .top-left p{
+        font-size: 0.7rem;
+    }
+    .top-right {
+        top: 150px;
+    }
+    .top-left {
+        left: 5%;
+    }
+    .bottom-right h2,
+    .bottom-right h3{
+        font-size: 1rem;
+    }
+    .footer-logo img {
+        height: 6vh;
+        width: 25vh;
+        margin-top: 15px;
+    }
+    .footer-row{
+        display: inline;
+    }
+    .info h2{
+        font-size: 2rem;
+    }
+    .product-description {
+        font-size: 1rem;
+        height: 200px;
+    }
+    .imagine img {
+        height: 300px;
+    }
+    .product-aplication{
+        height: 100%;
+    }
+    .intrebari-box {
+        display: inline;
+    }
+    .box-1 h2, 
+    .box-2 h2, 
+    .box-3 h2, 
+    .box-4 h2 {
+        font-size: 1.4rem;
+    }
+    .container{
+        max-width: 650px;
+        padding: 20px;
+    }
+    .background-contact{
+        height: 100%;
+    }
+    .find-us{
+        height: 100%;
+    }
+    .find-us h2{
+        font-size: 1.2rem;
+      }
+    
+    .contact-date{
+        height: 50vh;
+    }
+    .container1 .map iframe{
+        height: 50vh;
+        width: 100%;
+    }
+    .contact-date .contact .adresa .image-map, 
+    .contact-date .contact .numar .image-numar, 
+    .contact-date .contact .email .image-email {
+        font-size: 2.5rem;
+        height: 90px;
+    }
+}
+
+
+@media (max-width: 952px){
+	label.logo{
+	  font-size: 30px;
+	  padding-left: 50px;
+	}
+	nav ul li a{
+	  font-size: 16px;
+	}
+  }
+  @media (max-width: 858px){
+	.checkbtn{
+	  display: block;
+	}
+	.navbar-links{
+	  position: fixed;
+	  width: 100%;
+	  /* height: 100vh; */
+	  background: white;
+	  top: 80px;
+	  left: -100%;
+	  text-align: center;
+	  transition: all .5s;
+	}
+	nav ul li{
+	  display: block;
+	  margin: 50px 0;
+	  line-height: 30px;
+	}
+	nav ul li a{
+	  font-size: 20px;
+	}
+	a:hover,a.active{
+	  background: none;
+	  color: #0082e6;
+	}
+	#check:checked ~ ul{
+	  left: 0;
+	}
+  }
+
+@media (max-width: 425px){
+    nav ul li{
+        margin: 30px 0;
+    }
+    .logo img{
+        width: 200px;
+    }
+    label.logo{
+      padding: 20px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    .slide-container {
+        max-width: 425px;
+    }
+    .slide-container .slide img{
+        height: 330px;
+    }
+    .center h2,
+    .top-right h2,
+    .top-left h2{
+        font-size: 0.7rem;
+    }
+    .center p,
+    .top-right p,
+    .top-left p{
+        font-size: 0.6rem;
+    }
+    .center{
+        top: 28%;
+    }
+    .top-right{
+        top: 70px;
+        right: 60px;
+    }
+    .top-left{
+        top: 60px;
+        right: 240px;
+    }
+    .bottom-right h2,
+    .bottom-right h3{
+        font-size: 0.7rem;
+    }
+    .bottom-right{
+        bottom: 100px;
+        right: 0;
+    }
+    .footer-row{
+        display: inline;
+    }
+    .row-about{
+        display: inline;
+    }
+    .aplications-list{
+        display: inline;
+    }
+    .aplications .titlu {
+        font-size: 0.9rem;
+    }
+    .aplications h3 {
+        font-size: 1.2rem;
+    }
+    .aplications .titlu-1 {
+        font-size: 0.9rem;
+    }
+    .list-1 p, 
+    .list-2 p, 
+    .list-3 p, 
+    .list-4 p, 
+    .list-5 p, 
+    .list-6 p {
+        margin: 20px 19px;
+        font-size: 0.9rem;
+    }
+    .aplications .info-mic {
+        margin: 0 40px;
+        font-size: 0.7rem;
+    }
+    .box-1 h2, 
+    .box-2 h2, 
+    .box-3 h2, 
+    .box-4 h2 {
+        font-size: 1.1rem;
+    }
+    .box-1 p, 
+    .box-2 p, 
+    .box-3 p, 
+    .box-4 p {
+        font-size: 0.8rem;
+    }
+    button{
+        font-size: 12px;
+    }
+    .row1 .half{
+        flex: 0 0 100%;
+    }
+    .container {
+        max-width: 400px;
+    }
+    input, textarea{
+        margin: 0 0 20px;
+    }
+    .find-us{
+        width: 100%;
+        height: 100%;
+    }
+    .container1{
+        display: inline;
+    }
+    .contact-date{
+        height: 45vh;
+    }
+    .contact-date .contact .adresa,
+    .contact-date .contact .numar,
+    .contact-date .contact .email{
+        padding: 0;
+    }
+}   
+
+@media (max-width: 375px){
+    label.logo{
+        padding: 0px;
+    }
+    .slide-container {
+        max-width: 375px;
+    }
+    .slide-container .slide img{
+        height: 270px;
+    }
+    .bottom-right h2, 
+    .bottom-right h3 {
+        font-size: 0.5rem;
+    }
+    .info h2 {
+        font-size: 1.5rem;
+    }
+    .product-description{
+        font-size: 1rem;
+    }
+    .intrebari {
+        margin: 0 18px;
+    }
+    .container {
+        max-width: 350px;
+    }
+    input, textarea {
+        margin: 0 0 10px;
+    }
+    input[type="submit"] {
+        width: 110px;
+        font-size: 15px;
+    }
+    .contact-date .contact .adresa .image-map, 
+    .contact-date .contact .numar .image-numar, 
+    .contact-date .contact .email .image-email {
+        height: 60px;
+    }
+    .container1 .map iframe {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px){
+    .slide-container {
+        max-width: 320px;
+    }
+    .slide-container .slide img{
+        height: 250px;
+    }
+    .product-description {
+        font-size: 0.8rem;
+        height: 150px;
+    }
+    .aplications .titlu {
+        font-size: 0.8rem;
+    }
+    .aplications .titlu-1 {
+        font-size: 0.8rem;
+    }
+    .aplications .h1centered {
+        font-size: 1.3rem;
+    }
+    .list-1 p, 
+    .list-2 p, 
+    .list-3 p, 
+    .list-4 p, 
+    .list-5 p, 
+    .list-6 p {
+        margin: 15px 10px;
+        font-size: 0.8rem;
+    }
+    .aplications .info-mic {
+        margin: 0px 20px;
+        font-size: 0.7rem;
+    }
+    .box-1 h2, 
+    .box-2 h2, 
+    .box-3 h2, 
+    .box-4 h2 {
+        font-size: 1rem;
+    }
+    .intrebari {
+        margin: 0px 10px;
+    }
+    .container {
+        max-width: 310px;
+    }
+}

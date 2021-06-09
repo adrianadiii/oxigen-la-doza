@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-page{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+  .container-gdpr {
+    display: grid;
+    }
+
+    .container-gdpr h1{
+        text-align: center;
+    }
+
+    .container-gdpr p{
+        font-size: 1.2rem;
+    }
